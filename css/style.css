@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+#menu a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu button {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.carousel-inner {
+    max-height: 30rem;
+}
+
+#contenedor-formulario {
+    top: 30%;
+    left: 50%;
+    background: #fbfafa;
+    border-radius: 5px;
+    max-width: 500px;
+}
+
+#titulo-formulario {
+    color: #3f3f3f;
+}
+
+footer{
+    background: #1b2a4e;
+    min-height: 100px;
+}
+
+header{
+    background: #1b2a4e;
+    min-height: 50px;
+}
+
+footer p {
+    color: #f3f3f3;
+    text-align: center;
+}
+
+#iconos i {
+    font-size: 26px;
+    padding: 0 8px;
+    color: #f3f3f3;
+}
+#iconos-perfil {
+    align-items: center;
+    justify-content: center;
+}
+#iconos-perfil i {
+    font-size: 26px;
+    padding: 0 8px;
+    color: black;
+}
+
+#cont {
+    border-top-style: solid;
+    border-width: 4px;
+}
+
+.row > .col > div#img > img {
+    height: auto;
+    width: 50%;
+    border-bottom-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    margin: auto;
+}
+
+.row > .col {
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom: solid;
+    border-color: gray;
+    border-width: 1px;
+    
+}
+
+.row > .col > .section {
+    border-bottom-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    margin-bottom: 6%;
+}
+
+.row > .col > .section > #title{
+    border-bottom-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    padding-bottom: 1%;
+    margin-bottom: 6%;
+}
+    
+.section-course {
+    margin: auto;
+    padding: 1%;
+}
+
+.section-course > p{
+    margin: auto;
+    padding-left: 1%;
+    padding-right: 5%;
+}
+
+.section-course > #title-course {
+    padding-left: 1%;
+    padding-right: 70%;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+}
+
+.sub-section {
+    padding: 3%;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    margin-bottom: 5%;
+}
